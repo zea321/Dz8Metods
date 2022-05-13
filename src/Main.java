@@ -32,8 +32,9 @@ public class Main {
             System.out.println("Потребуется дней: " + deliveryDay2);
         }
     }
-//Задание 2.
+
     public static void main(String[] args) {
+        //Задание 2.
         int clientOS = 1;
         int year = 2015;
         clientYearOs(clientOS, year);
