@@ -11,7 +11,7 @@ public class Main {
             System.out.println("Установите облегченную версию приложения для Android");
         }
     }
-
+// Задание 1.
     public static void methodLeapYear(int methodY) {
         if (methodY % 4 == 0 && methodY % 100 != 0 || methodY % 400 == 0) {
             System.out.println(methodY + " год является високосным");
@@ -19,6 +19,7 @@ public class Main {
             System.out.println(methodY + " год не является високосным");
         }
     }
+    //Задание 3.
     public static void delivery1(int deliveryDistance2,int deliveryDay2 ) {
         if (deliveryDistance2 > 20)
         { deliveryDay2++;
@@ -31,7 +32,7 @@ public class Main {
             System.out.println("Потребуется дней: " + deliveryDay2);
         }
     }
-
+//Задание 2.
     public static void main(String[] args) {
         int clientOS = 1;
         int year = 2015;
